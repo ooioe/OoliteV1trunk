@@ -1,10 +1,11 @@
 --- a/arch/mips/ath79/Makefile
 +++ b/arch/mips/ath79/Makefile
-@@ -129,3 +129,4 @@ obj-$(CONFIG_ATH79_MACH_WZR_HP_AG300H)	+
+@@ -129,4 +129,5 @@ obj-$(CONFIG_ATH79_MACH_WZR_HP_AG300H)	+
  obj-$(CONFIG_ATH79_MACH_WZR_HP_G450H)	+= mach-wzr-hp-g450h.o
  obj-$(CONFIG_ATH79_MACH_ZCN_1523H)	+= mach-zcn-1523h.o
  obj-$(CONFIG_ATH79_MACH_CARAMBOLA2)	+= mach-carambola2.o
 +obj-$(CONFIG_ATH79_MACH_NBG6716)	+= mach-nbg6716.o
+
 --- a/arch/mips/ath79/machtypes.h
 +++ b/arch/mips/ath79/machtypes.h
 @@ -62,6 +62,7 @@ enum ath79_mach_type {
